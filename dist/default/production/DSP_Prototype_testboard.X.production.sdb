@@ -1,0 +1,243 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"5 C:\Users\smcch\MPLABXProjects\DSP_Prototype_testboard.X\DEFINITIONS.c
+[v _INIT_PIN INIT_PIN `(v  1 e 1 0 ]
+"15
+[v _INIT_EUSART INIT_EUSART `(v  1 e 1 0 ]
+"25
+[v _INIT_INTERRUPTS INIT_INTERRUPTS `(v  1 e 1 0 ]
+"35
+[v _INIT_TEST INIT_TEST `(v  1 e 1 0 ]
+"37 C:\Users\smcch\MPLABXProjects\DSP_Prototype_testboard.X\eusart.c
+[v _getChar getChar `(uc  1 e 1 0 ]
+"65
+[v _clearRCREG clearRCREG `(v  1 e 1 0 ]
+"80
+[v _sendChar sendChar `(v  1 e 1 0 ]
+"85
+[v _write2Reg write2Reg `(v  1 e 1 0 ]
+"24 C:\Users\smcch\MPLABXProjects\DSP_Prototype_testboard.X\main.c
+[v _INIT INIT `(v  1 e 1 0 ]
+"39
+[v _ISR ISR `II(v  1 e 1 0 ]
+"49
+[v _main main `(v  1 e 1 0 ]
+"63
+[v _getRCREG getRCREG `(v  1 e 1 0 ]
+"84
+[v _sendData sendData `(v  1 e 1 0 ]
+"152
+[v _incrLED incrLED `(v  1 e 1 0 ]
+[s S63 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"183 C:/Users/smcch/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h
+[u S72 . 1 `S63 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES72  1 e 1 @5 ]
+[s S42 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"245
+[u S51 . 1 `S42 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES51  1 e 1 @6 ]
+[s S84 . 1 `uc 1 RE0 1 0 :1:0 
+`uc 1 RE1 1 0 :1:1 
+`uc 1 RE2 1 0 :1:2 
+`uc 1 RE3 1 0 :1:3 
+]
+"427
+[u S89 . 1 `S84 1 . 1 0 ]
+[v _PORTEbits PORTEbits `VES89  1 e 1 @9 ]
+"459
+[v _INTCON INTCON `VEuc  1 e 1 @11 ]
+"537
+[v _PIR1 PIR1 `VEuc  1 e 1 @12 ]
+"593
+[v _PIR2 PIR2 `VEuc  1 e 1 @13 ]
+"1038
+[v _RCSTA RCSTA `VEuc  1 e 1 @24 ]
+"1133
+[v _TXREG TXREG `VEuc  1 e 1 @25 ]
+"1140
+[v _RCREG RCREG `VEuc  1 e 1 @26 ]
+"1346
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @129 ]
+[s S208 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"1433
+[u S217 . 1 `S208 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES217  1 e 1 @133 ]
+"1478
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1540
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1602
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+[s S229 . 1 `uc 1 TRISE0 1 0 :1:0 
+`uc 1 TRISE1 1 0 :1:1 
+`uc 1 TRISE2 1 0 :1:2 
+`uc 1 TRISE3 1 0 :1:3 
+]
+"1677
+[u S234 . 1 `S229 1 . 1 0 ]
+[v _TRISEbits TRISEbits `VES234  1 e 1 @137 ]
+"1702
+[v _PIE1 PIE1 `VEuc  1 e 1 @140 ]
+"2556
+[v _TXSTA TXSTA `VEuc  1 e 1 @152 ]
+"2642
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+"3335
+[v _BAUDCTL BAUDCTL `VEuc  1 e 1 @391 ]
+"3387
+[v _ANSEL ANSEL `VEuc  1 e 1 @392 ]
+"3449
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+"3840
+[v _CREN CREN `VEb  1 e 0 @196 ]
+"3891
+[v _FERR FERR `VEb  1 e 0 @194 ]
+"4005
+[v _OERR OERR `VEb  1 e 0 @193 ]
+"4179
+[v _RCIF RCIF `VEb  1 e 0 @101 ]
+"4512
+[v _TRMT TRMT `VEb  1 e 0 @1217 ]
+"10 C:\Users\smcch\MPLABXProjects\DSP_Prototype_testboard.X\eusart.c
+[v _eusartRxCnt eusartRxCnt `VEuc  1 e 1 0 ]
+"10 C:\Users\smcch\MPLABXProjects\DSP_Prototype_testboard.X\main.c
+[v _heartState heartState `uc  1 e 1 0 ]
+"11
+[v _y y `uc  1 e 1 0 ]
+"12
+[v _o o `uc  1 e 1 0 ]
+"13
+[v _b b `uc  1 e 1 0 ]
+"14
+[v _counter counter `ui  1 e 2 0 ]
+"17
+[v _buf_rx buf_rx `[16]uc  1 e 16 0 ]
+"18
+[v _dat_end dat_end `*.4uc  1 e 1 0 ]
+"19
+[v _i i `ui  1 e 2 0 ]
+"20
+[v _buf buf `[5]uc  1 e 5 0 ]
+"21
+[v _rts rts `ui  1 e 2 0 ]
+"49
+[v _main main `(v  1 e 1 0 ]
+{
+"58
+} 0
+"63
+[v _getRCREG getRCREG `(v  1 e 1 0 ]
+{
+"82
+} 0
+"84
+[v _sendData sendData `(v  1 e 1 0 ]
+{
+"91
+} 0
+"85 C:\Users\smcch\MPLABXProjects\DSP_Prototype_testboard.X\eusart.c
+[v _write2Reg write2Reg `(v  1 e 1 0 ]
+{
+[v write2Reg@dat_st dat_st `*.4uc  1 a 1 wreg ]
+"87
+[v write2Reg@i i `i  1 a 2 6 ]
+"85
+[v write2Reg@dat_st dat_st `*.4uc  1 a 1 wreg ]
+[v write2Reg@dat_end dat_end `i  1 p 2 3 ]
+"87
+[v write2Reg@dat_st dat_st `*.4uc  1 a 1 8 ]
+"92
+} 0
+"80
+[v _sendChar sendChar `(v  1 e 1 0 ]
+{
+[v sendChar@data data `uc  1 a 1 wreg ]
+[v sendChar@data data `uc  1 a 1 wreg ]
+[v sendChar@data data `uc  1 a 1 2 ]
+"83
+} 0
+"152 C:\Users\smcch\MPLABXProjects\DSP_Prototype_testboard.X\main.c
+[v _incrLED incrLED `(v  1 e 1 0 ]
+{
+[v incrLED@val val `ui  1 p 2 2 ]
+"180
+} 0
+"37 C:\Users\smcch\MPLABXProjects\DSP_Prototype_testboard.X\eusart.c
+[v _getChar getChar `(uc  1 e 1 0 ]
+{
+"38
+[v getChar@c c `uc  1 a 1 3 ]
+"48
+} 0
+"24 C:\Users\smcch\MPLABXProjects\DSP_Prototype_testboard.X\main.c
+[v _INIT INIT `(v  1 e 1 0 ]
+{
+"37
+} 0
+"65 C:\Users\smcch\MPLABXProjects\DSP_Prototype_testboard.X\eusart.c
+[v _clearRCREG clearRCREG `(v  1 e 1 0 ]
+{
+"73
+[v clearRCREG@c c `uc  1 a 1 3 ]
+"78
+} 0
+"35 C:\Users\smcch\MPLABXProjects\DSP_Prototype_testboard.X\DEFINITIONS.c
+[v _INIT_TEST INIT_TEST `(v  1 e 1 0 ]
+{
+"43
+} 0
+"5
+[v _INIT_PIN INIT_PIN `(v  1 e 1 0 ]
+{
+"13
+} 0
+"25
+[v _INIT_INTERRUPTS INIT_INTERRUPTS `(v  1 e 1 0 ]
+{
+"33
+} 0
+"15
+[v _INIT_EUSART INIT_EUSART `(v  1 e 1 0 ]
+{
+"24
+} 0
+"39 C:\Users\smcch\MPLABXProjects\DSP_Prototype_testboard.X\main.c
+[v _ISR ISR `II(v  1 e 1 0 ]
+{
+"44
+} 0
